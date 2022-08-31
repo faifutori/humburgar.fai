@@ -12,15 +12,16 @@ $(function($){
         if (scroll > targetElement - windowHeight + 200) {
             $('.fadein').css('opacity', '1');
             $('.fadein').css('transform','translateY(0)');
-        }
+         }
     });
-});
-
-$('.slider').slick({
+    $('.slider').slick({
         arrows: false,
         autoplay: true,
         dots: true,
         centerMode: true,
         centerPadding: '20%',
+    });
 });
+
+
 
