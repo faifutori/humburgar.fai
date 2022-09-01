@@ -99,3 +99,64 @@ body {
     margin: 10px 0;
     padding: 5px 10px;
 }
+
+#menu {
+    background-color: #faedc6;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.open-box {
+    display: none;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.food-box {
+    width: 200px;
+}
+
+.food-box-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.more-button {
+    background-color: #fabb51;
+    border-radius: 5px;
+    color: #fff;
+    display:  inline-block;
+    font-size: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.drink-title {
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 56px;
+    margin-top: 50px;
+}
+
+#menu table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#menu th,
+#menutd {
+    padding: 10px 20px;
+}
+
+thead {
+    border-bottom: 1px solid #808080;
+}
+
+.drink-menu {
+    text-align: left;
+}

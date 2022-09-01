@@ -14,12 +14,25 @@ $(function($){
             $('.fadein').css('transform','translateY(0)');
          }
     });
+
     $('.slider').slick({
         arrows: false,
         autoplay: true,
         dots: true,
         centerMode: true,
         centerPadding: '20%',
+    });
+
+    $('.more-button').on('click', function(){
+        if ($('.open-box').is(':hidden')){
+            $('.open-box').slideDown();
+            $(this).text('close');
+            $(this).css('background-color', '#808080');
+        } else {
+            $('.open-box').slideUp();
+            $(this).text('more');
+            $(this).css('background-color', '#fabb51');
+        }
     });
 });
 
