@@ -160,3 +160,32 @@ thead {
 .drink-menu {
     text-align: left;
 }
+
+#news {
+    padding: 100px 0;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner {
+    width: 400px;
+}
+
+.modal-box{
+    margin: 0 20px;
+}
+
+.modaal-content-container {
+    text-align: center;
+}
+
+.modaal-close:focus:after,
+.moddak-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+    background: #fabb51;
+}
