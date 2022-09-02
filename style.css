@@ -31,6 +31,34 @@
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* margin: 20px 50px;
+    padding-left: 50px; */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
 .subheading{
     font-size: 18px;
     text-align: center;
@@ -188,4 +216,36 @@ thead {
 .modaal-close:hover:after,
 .modaal-close:hover:before {
     background: #fabb51;
+}
+
+#access {
+    background-color: #faedc6;
+    padding: 100px 0;
+}
+
+.access-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.access-box {
+    margin-left: 50px;
+}
+
+.access-box-title {
+    font-weight: bold;
+}
+
+.access-box-text {
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
 }
